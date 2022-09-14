@@ -1,0 +1,43 @@
+.chipContainer {
+  border: 1px solid rgb(252, 250, 250);
+  border-radius: 10px;
+  background-color: rgb(28, 26, 26);
+  width: 200px;
+  height: auto;
+  color: white;
+  box-sizing: border-box;
+}
+
+.chipImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.chipTitle {
+  font-size: 20px;
+  font-family: "Lucida Sans", monospace;
+  color: white;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.chipSubTitle {
+  font-size: 16px;
+  font-family: "Lucida Sans", monospace;
+  color: white;
+  text-align: center;
+}
+
+.chipClickable {
+  cursor: pointer;
+}
+
+.chipRaised {
+  box-shadow: 10px 10px 5px rgb(111, 116, 117);
+  border-radius: 10px;
+}
+
+.chipHoverable:hover {
+  opacity: 0.8;
+}

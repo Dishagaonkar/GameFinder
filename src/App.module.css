@@ -1,0 +1,7 @@
+.flexContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 200px;
+}

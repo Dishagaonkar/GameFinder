@@ -9,7 +9,7 @@ const Chip = (props) => {
     >
       <img className={styles.chipImage} src={props.image} alt={props.title} />
       <p className={styles.chipTitle}>{props.title}</p>
-      <p className={styles.chipSubTitle}>{props.subTitle}</p>
+      <p className={styles.chipSubTitle}>Rating : {props.subTitle}</p>
     </div>
   );
 };
